@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page For My Sweet Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Risque" rel="stylesheet"> 
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+  
+  <div id="wrapper">
+    <body>
+      <main>
+        <header>
+          <h1>
+            This is the main header 
+          </h1>
+          <h2>This is header two</h2>
+          <h3>This is header <span id="span1">three</span></h3>
+          <h4>This is header <span class="span2">four</span></h4>
+          <h5>This is <span style="color: #FFFF00">header five</span></h5>
+          <h6>This is header six</h6>
+        </header>
+    
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html"><img id="homeImg" src="images/planet5.jpg">Home</a>
+            </li>
+            <li>
+              <a href="blog.html"><img src="images/planet6.jpg">Blog</a>
+            </li>
+            <li>
+              <a href="contact.html"><img src="images/planet2.jpg"> Contact</a>
+            </li>
+          </ul>
+        </nav>
+    
+        <section id="paragraph_section1">
+          <h2>Paragraph Section</h2>
+          <p id="first_paragraph">This is the first paragraph after the first header</p>
+          <p id="second_paragraph">This is the second paragraph after the first header</p>
+          <p id="third_paragraph">This is the third paragraph after the first header</p>
+        </section>
+        
+        <section id="ordered_list1">
+          <h2>Ordered List Section</h2>
+          <ol>
+            <li><img src="images/horsehead.jpg" width="100" height="100" alt="horsehead nebula"><span>Horse Head Nebula</span></li>
+            <li><img src="images/Witchhead.jpg" width="100" height="100" alt="witch head nebula"><span>witch head Nebula</span></li>
+            <li><img src="images/Carina_Nebula2.jpg" width="100" height="119" alt="Carina nebula"><span>Carina Nebula</span></li>
+            <li class="awesome"><img src="images/Cats_Eye2.jpg" width="100" height="100" alt="Cats eye nebula"><span>Cats eye Nebula</span></li>
+            <li class="awesome"><img src="images/red_rectangle.jpg" width="100" height="100" alt="red rectangle nebula"><span>red rectangle Nebula</span></li>
+            <li><img src="images/Triangulum_Emission_Garren_Nebula.jpg" width="100" height="100" alt="Trianglulum Emission Garren nebula"><span>Trianglulum Emission Garren Nebula</span></li>
+            <li class="awesome"><img src="images/earth.gif" width="100" height="100" alt="rotating earth"><span>Earth Gif</span></li>
+          </ol>
+        </section>
+      
+        Browser Default-->External Styles-->Embedded Styles-->Inline Styles-->HTML Attributes<br>
+      
+      shape = rect -> coordinates = "x1,y1,x2,y2"<br>
+      
+      shape = circle -> coordiantes = "x,y,r"<br>
+      
+      shape = polygon -> coordinates = "x1,y1,x2,y2,x3,y3", etc.<br>
+      
+      <section>
+      
+        <map name="trappist" id="trappist">
+
+          <area href="https://www.jpl.nasa.gov/spaceimages/details.php?id=PIA21424" shape="circle" coords="224,224,60" alt="trappist_1e poster" title="Planet Hop From Trappist-1e">
+        
+          <area href="https://www.nasa.gov/press-release/nasa-telescope-reveals-largest-batch-of-earth-size-habitable-zone-planets-around" shape="rect" coords="180, 500, 390, 554" alt="trappist_1e poster" title="Planet Hop From Trappist-1e 2">        
+
+        </map>
+      
+        <img id="poster_img" src="images/479.jpg" width="402px" height="576px" usemap="#trappist">
+      
+      </section>
+      
+      <section id="box_model">
+      
+      <img src="images/Cats_Eye2.jpg">
+      
+        <h2>
+          BOX MODEL
+        </h2>
+
+
+        <p>
+          BOX MODEL PARAGRAPH
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+          <span id="box_span1">
+            box model span 1
+          </span>
+          
+          <span id="box_span2">
+            box model span 2
+          </span>
+          
+          <span id="box_span3">
+            box model span 3
+          </span>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+      
+      </section>
+      
+      <div id="multi-column">
+      
+        <h2>This is a Header</h2>
+        
+        <div id="column_1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus rutrum iaculis. Pellentesque ultricies augue a enim cursus egestas. Sed ornare urna id eros commodo, at pharetra ipsum iaculis. Suspendisse commodo lorem sit amet enim ultricies dignissim. Vestibulum egestas tempor erat eget finibus. Donec vehicula metus vel dictum condimentum. Duis elementum tortor at nibh vestibulum euismod. Curabitur felis libero, feugiat vitae dolor id, sodales varius urna. In hac habitasse platea dictumst. Donec efficitur erat quis justo vulputate tristique. Nullam ut elit egestas, iaculis nibh blandit, dictum tellus. Pellentesque mattis mollis eros, maximus lacinia ex mattis non. 
+        </div>
+        
+        <div id="column_2">
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus sed urna aliquet, molestie felis ac, hendrerit risus. Aenean nulla justo, finibus eu nulla eu, sollicitudin eleifend erat. Integer ipsum felis, tincidunt molestie libero sit amet, varius tempor ex. Vivamus mollis augue id efficitur efficitur. Sed aliquet augue diam, quis fringilla velit tempor in. Sed sodales turpis ut mi tristique, quis dictum est imperdiet. Proin nisi urna, viverra eget ultricies sit amet, egestas quis odio. Sed tempus quam vel augue molestie, nec aliquam eros posuere. Mauris et magna ac purus interdum bibendum ac sed quam. Donec pulvinar est id quam maximus hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In tristique, nisi ac viverra lacinia, lectus ligula euismod sem, ut pretium augue justo eget ex. Ut vestibulum dictum nibh in finibus. Duis ante mauris, dapibus id feugiat et, imperdiet id nisi.  
+        </div>
+      
+      
+      
+      </div>
+
+
+      <h2>This is a Header</h2>
+      
+      <div id="multi_column_2">
+      
+        
+        <div id="column2_1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus rutrum iaculis. Pellentesque ultricies augue a enim cursus egestas. Sed ornare urna id eros commodo, at pharetra ipsum iaculis. Suspendisse commodo lorem sit amet enim ultricies dignissim. Vestibulum egestas tempor erat eget finibus. Donec vehicula metus vel dictum condimentum. Duis elementum tortor at nibh vestibulum euismod. Curabitur felis libero, feugiat vitae dolor id, sodales varius urna. In hac habitasse platea dictumst. Donec efficitur erat quis justo vulputate tristique. Nullam ut elit egestas, iaculis nibh blandit, dictum tellus. Pellentesque mattis mollis eros, maximus lacinia ex mattis non. 
+        </div>
+        
+        <div id="column2_2">
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus sed urna aliquet, molestie felis ac, hendrerit risus. Aenean nulla justo, finibus eu nulla eu, sollicitudin eleifend erat. Integer ipsum felis, tincidunt molestie libero sit amet, varius tempor ex. Vivamus mollis augue id efficitur efficitur. Sed aliquet augue diam, quis fringilla velit tempor in. Sed sodales turpis ut mi tristique, quis dictum est imperdiet. Proin nisi urna, viverra eget ultricies sit amet, egestas quis odio. Sed tempus quam vel augue molestie, nec aliquam eros posuere. Mauris et magna ac purus interdum bibendum ac sed quam. Donec pulvinar est id quam maximus hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In tristique, nisi ac viverra lacinia, lectus ligula euismod sem, ut pretium augue justo eget ex. Ut vestibulum dictum nibh in finibus. Duis ante mauris, dapibus id feugiat et, imperdiet id nisi.  
+        </div>
+      
+      
+      
+      </div>
+      
+      </main>  
+      <footer>
+        <small><i>Copyright &copy; 2017 MySweetWebsiteCo.</i></small>
+      </footer>
+    </body>
+  </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>  
+
+<div id="outer_div1">
+  outer div 1
+  <div id="inner_div1">
+    inner div 1
+  </div>
+  <div id="inner_div2">
+    inner div 2
+  </div>
+  <div id="inner_div3">
+    inner div 3
+  </div>
+</div>
+
+<div id="outer_div2">
+  <div id="inner_div2_1">
+    <img src="images/planet5.jpg">
+  </div>
+  <div id="inner_div2_2">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Ac ut consequat semper viverra nam. Nullam eget felis eget nunc lobortis. Augue mauris augue neque gravida. Consectetur a erat nam at. Purus non enim praesent elementum facilisis leo vel fringilla. In est ante in nibh mauris cursus mattis molestie a.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Ac ut consequat semper viverra nam. Nullam eget felis eget nunc lobortis. Augue mauris augue neque gravida. Consectetur a erat nam at. Purus non enim praesent elementum facilisis leo vel fringilla. In est ante in nibh mauris cursus mattis molestie a.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut diam quam nulla porttitor massa. Ac ut consequat semper viverra nam. Nullam eget felis eget nunc lobortis. Augue mauris augue neque gravida. Consectetur a erat nam at. Purus non enim praesent elementum facilisis leo vel fringilla. In est ante in nibh mauris cursus mattis molestie a.
+    </p>
+    
+    
+  </div>
+  <div id="inner_div2_3">
+    inner div 3
+  </div>
+  <div id="inner_div2_4">
+    inner div 4
+  </div>
+  <div id="inner_div2_5">
+    inner div 5
+  </div>  
+</div>
+
+          
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>            
+</html>
