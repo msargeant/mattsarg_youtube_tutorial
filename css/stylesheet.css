@@ -85,6 +85,10 @@ ul {
   list-style: none;
 }
 
+ul li {
+  text-decoration: none;
+}
+
 nav li {
   display: inline-block; 
   font-size: 24px;
