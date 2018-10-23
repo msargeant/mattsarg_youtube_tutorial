@@ -96,6 +96,47 @@ nav li {
   text-align: center;
 }
 
+.nav3 ul {
+  text-align: center;
+} 
+
+.nav3 ul li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 30px;
+    border: 1px solid #000;
+    box-shadow: 5px 5px #000;
+    margin-right: 25px;
+}
+
+.nav3 ul li a:link {
+  color: #33E8ff;
+  text-decoration: underline;
+}
+
+.nav3 ul li a:visited {
+  color: #fff;
+}
+
+.nav3 ul li a:focus {
+  background-color: #ff0;
+}
+
+.nav3 ul li a:hover {
+  color: #00f;
+  text-decoration: none;
+  text-shadow: 5px 5px #000;
+  border-radius: 5px;
+  background-color: hsla(0, 0%, 0%, 0);
+}
+
+.nav3 ul li a:active {
+  background-color: #f00;
+  font-size: 45px;
+}
+
+
+
 a:hover {
   background-color: #AAAAAA;
   border-radius: 19px;
