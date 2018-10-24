@@ -30,6 +30,7 @@
   margin: auto;
   background-image: url(../images/Carina_Nebula.jpg);
   background-color: #000000;
+  margin-top: 100px;
   /*
   box-shadow: horizontalOffset verticalOffset blurRadius(optional) spreadDistance(optional) colorValue
   */
@@ -96,6 +97,14 @@ nav li {
   text-align: center;
 }
 
+.nav3 {
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  margin-left: -410px;
+  
+}
+
 .nav3 ul {
   text-align: center;
 } 
@@ -106,7 +115,9 @@ nav li {
     font-size: 30px;
     border: 1px solid #000;
     box-shadow: 5px 5px #000;
+    width: 200px;
     margin-right: 25px;
+    margin-bottom: 15px;
 }
 
 .nav3 ul li a:link {
@@ -419,7 +430,32 @@ ol li span {
   
 }
 
+.outerBox {
+  background-color: #00f;
+  margin: 45px;
+  padding: 45px;
+}
 
+.p1 {
+  background-color: #f00;
+  padding: 0;
+  margin: 0;
+}
+
+.p2 {
+  background-color: #ff0;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+
+.p3 {
+  background-color: #0ff;
+  padding: 0;
+  margin: 0;  
+}
 
 
 
