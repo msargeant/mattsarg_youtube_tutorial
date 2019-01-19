@@ -458,9 +458,58 @@ ol li span {
   margin: 0;  
 }
 
+.bg-Carina_Nebula2 {
+    width: 100px; 
+    height: 119px;
+
+    background-image: url('../images/css_sprites.png');
+    background-repeat: no-repeat;
+    background-position: -830px -10px;
+}
+
+.bg-Cats_Eye {
+    width: 800px; 
+    height: 800px;
+    background: url('../images/css_sprites.png') -10px -10px;
+}
 
 
+.bg-planet2 {
+    width: 58px; height: 53px;
+    background: url('../images/css_sprites.png') -830px -231px;
+}
 
+.bg-planet5 {
+    width: 64px; height: 62px;
+    background: url('../images/css_sprites.png') -830px -149px;
+}
+
+.bg-planet6 {
+    width: 54px; height: 53px;
+    background: url('../images/css_sprites.png') -830px -304px;
+}
+
+.planet5_nav {
+  width: 64px;
+  height: 62px;
+  background: url('../images/css_sprites.png') no-repeat -830px -149px;
+  margin-left: 6px;
+  
+}
+  
+.planet6_nav {
+  width: 58px;
+  height: 53px;
+  background: url('../images/css_sprites.png') no-repeat -830px -231px;
+  margin-left: 9px;
+}
+
+.planet2_nav {
+  width: 54px;
+  height: 53px;
+  background: url('../images/css_sprites.png') no-repeat -830px -304px;
+  margin-left: 9px;
+}
 
 
 
