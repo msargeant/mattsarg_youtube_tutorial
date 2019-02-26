@@ -511,5 +511,28 @@ ol li span {
   margin-left: 9px;
 }
 
+figure {
+  margin: 15px auto;
+  border: 6px solid white;
+  padding: 15px;
+  width: 375px;
+} 
 
+figcaption {
+  text-align: center;
+  font-size: 36px;
+  font-style: oblique;
+  border: 1px solid white;
+  margin: 0 auto;
+  width: 375px;
+}  
+
+aside {
+  float: right;
+  width: 240px;
+  background-color: black;
+  color: orange;
+  border: 3px solid green;
+  border-radius: 6px;
+}
 
