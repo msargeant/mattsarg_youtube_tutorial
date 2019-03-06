@@ -1,0 +1,19 @@
+#print_hide {
+  display: none;
+}
+
+#figures {
+  display: none;
+}
+
+#aside_element {
+  display: none;
+}
+
+#hide_site {
+  display: none;
+}
+
+.new_page {
+  page-break-before: always;
+}
