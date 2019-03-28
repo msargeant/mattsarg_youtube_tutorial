@@ -515,16 +515,21 @@ figure {
   margin: 15px auto;
   border: 6px solid white;
   padding: 15px;
-  width: 375px;
+  width: 33%;
 } 
+
+figure img {
+  width: 100%;
+  margin: auto;
+}
 
 figcaption {
   text-align: center;
-  font-size: 36px;
+  font-size: 18px;
   font-style: oblique;
   border: 1px solid white;
   margin: 0 auto;
-  width: 375px;
+  width: 100%;
 }  
 
 aside {
@@ -534,6 +539,14 @@ aside {
   color: orange;
   border: 3px solid green;
   border-radius: 6px;
+}
+
+#flexible_pic img {
+  display: block;
+  width: 100%;
+  margin: auto;
+  border: 3px solid green;
+    
 }
 
 @media only screen and (min-width: 960px) and (max-width: 1260px) {
