@@ -536,3 +536,76 @@ aside {
   border-radius: 6px;
 }
 
+@media only screen and (min-width: 960px) and (max-width: 1260px) {
+  
+  body {
+    background-image: none;
+    background-color: aqua;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  
+  nav {
+   text-align: center; 
+  }
+  
+  body {
+    background-image: none;
+    background-color: orange;
+  }
+  
+}
+
+@media only screen and (min-width: 370px) and (max-width: 767px) {
+
+
+  nav {
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+  
+  body {
+    background-image: none;
+    background-color: red;
+  }
+  
+}
+
+@media only screen and (max-width: 369px) {
+
+  nav {
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }  
+  
+  body {
+    background-image: none;
+    background-color: purple;
+  }  
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
