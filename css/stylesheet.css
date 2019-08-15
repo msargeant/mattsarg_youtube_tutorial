@@ -545,9 +545,43 @@ aside {
   display: block;
   width: 100%;
   margin: auto;
-  border: 3px solid green;
-    
+  border: 3px solid green;   
 }
+
+table#first_table {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  height: 150px;
+  padding: 15px;
+  border-spacing: 0.25em;
+  border-collapse: collapse;
+  background-color: yellowgreen;
+  vertical-align: bottom;
+  border: 6px magenta dotted;
+  border-spacing: 0.5em;
+  background-image: url("../images/Carina_Nebula.jpg");
+  color: white;
+  font-family: arial, helvetica, sans-serif;
+}
+
+#first_table td {
+  border: 3px solid black;
+}
+
+#first_table caption {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 6px;
+  color: black;
+  text-decoration: underline;
+}
+
+#first_table .alt_row {
+  background-color: grey;
+}
+
 
 @media only screen and (min-width: 960px) and (max-width: 1260px) {
   
