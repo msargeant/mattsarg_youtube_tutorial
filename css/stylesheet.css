@@ -582,6 +582,47 @@ table#first_table {
   background-color: grey;
 }
 
+#second_table {
+  background-color: green;
+  color: white;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+#second_table tr:nth-of-type(even) {
+  background-color: rgb(123, 155, 102);
+}
+
+#second_table tr:first-of-type {
+  background-color: rgb(17, 110, 41);
+}
+
+#second_table th:first-letter {
+  font-size: 2.4em;
+  font-weight: italic;
+  color: rgb(90, 235, 155);
+  font-family: Georgia, serif;
+}
+
+#second_table caption:first-letter{
+  font-size: 2.4em;
+  font-weight: italic;
+  color: rgb(90, 235, 155);
+  font-family: Georgia, serif;
+}
+
+#second_table td:first-child{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#second_table tr:last-child{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: greenyellow;
+}
+
 
 @media only screen and (min-width: 960px) and (max-width: 1260px) {
   
