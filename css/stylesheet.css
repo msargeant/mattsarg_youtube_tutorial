@@ -623,6 +623,41 @@ table#first_table {
   color: greenyellow;
 }
 
+#third_table {
+  width: 60%;
+  margin: auto;
+  border: 6px ridge white;
+}
+
+#third_table th, td {
+  border-style: none;
+}
+
+#third_table caption {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#third_table thead {
+  background-color: paleturquoise;
+}
+
+#third_table tbody {
+  font-family: Arial, sans-serif;
+  font-size: .90em;
+}
+
+#third_table tbody td {
+  border-bottom: 1px #000033 dotted;
+  padding-left: 25px;
+}
+
+#third_table tfoot {
+  background-color: springgreen;
+  font-weight: bold;
+  text-align: center;
+}
+
 
 @media only screen and (min-width: 960px) and (max-width: 1260px) {
   
