@@ -267,15 +267,17 @@
           <div class="new_page"></div>
           
           <br><br>
+          <fieldset>
+          <legend><h3>My News Letter Wants You!</h3></legend>
           <label>
-          <h3>My News Letter Wants You!</h3>
-          
           <form action="sever_side_script1.php" method="POST" autocomplete="on" id="newsletter_form" name="newsletter_form">
           
             Email: <input type="text" name="email" id="email" size="40" autocomplete="on" autofocus="on" placeholder="email@example.com" required="required" accesskey="f" tabindex="1">
           </label>
             <br><br>
-            <h4>How did you hear about us?</h4>
+            <fieldset>
+            <legend><h4>How did you hear about us?</h4></legend>
+            
             <input type="checkbox" name="school" id="school" value="yes" disabled="disabled" accesskey="s" tabindex="4">
             <label for="school">
             School
@@ -290,9 +292,12 @@
             <label for="other">            
             Other
             </label>
+            </fieldset>
             <br>          
 
-            <h4>What is your favorite movie genre?</h4>
+            <fieldset>
+            <legend><h4>What is your favorite movie genre?</h4></legend>
+            
               <input type="radio" name="favorite_movie_genre" id="sci_fi" value="science_fiction" accesskey="n" tabindex="7" checked="checked" autofocus="autofocus" required="required">
               <label for="sci_fi">            
                 Science Fiction
@@ -307,6 +312,7 @@
               <label for="com">
               Comedy
               </label>
+              </fieldset>
               
               <br>         
               <label>
@@ -339,6 +345,7 @@
               <br>              
               <h4>hidden field here but it is invisible</h4>
               <input type="hidden" name="hidden_user_id" id="hidden_field" value="1379">
+              
           <br><br>
           
             <input type="submit" value="Add Me" name="submit_button" id="submit_button" accesskey="s" tabindex="2">
@@ -346,7 +353,7 @@
             <input type="reset" value="clear please" name="reset_button" id="reset_button" accesskey="r" tabindex="3">
             
           </form>
-          
+          </fieldset>
           <table id="first_table" border="1" summary="name size and distances of selected nebula clouds">
           <caption>Nebula Data</caption>
             <tr>
