@@ -267,33 +267,53 @@
           <div class="new_page"></div>
           
           <br><br>
-          
-          <h3>My News Letter Want You!</h3>
+          <label>
+          <h3>My News Letter Wants You!</h3>
           
           <form action="sever_side_script1.php" method="POST" autocomplete="on" id="newsletter_form" name="newsletter_form">
           
             Email: <input type="text" name="email" id="email" size="40" autocomplete="on" autofocus="on" placeholder="email@example.com" required="required" accesskey="f" tabindex="1">
-          
+          </label>
             <br><br>
             <h4>How did you hear about us?</h4>
-            <input type="checkbox" name="school" id="school" value="yes" disabled="disabled" accesskey="s" tabindex="4">School
+            <input type="checkbox" name="school" id="school" value="yes" disabled="disabled" accesskey="s" tabindex="4">
+            <label for="school">
+            School
+            </label>
             <br>
-            <input type="checkbox" name="friend" id="friend" value="yes" autofocus="autofocus" checked="checked" accesskey="f" tabindex="5">Friend
+            <input type="checkbox" name="friend" id="friend" value="yes" autofocus="autofocus" checked="checked" accesskey="f" tabindex="5">
+            <label for="friend">            
+            Friend
+            </label>
             <br> 
-            <input type="checkbox" name="other" id="other" value="yes" accesskey="o" tabindex="6">Other
+            <input type="checkbox" name="other" id="other" value="yes" accesskey="o" tabindex="6">
+            <label for="other">            
+            Other
+            </label>
             <br>          
 
             <h4>What is your favorite movie genre?</h4>
-              <input type="radio" name="favorite_movie_genre" id="sci_fi" value="science_fiction" accesskey="n" tabindex="7" checked="checked" autofocus="autofocus" required="required">Science Fiction
+              <input type="radio" name="favorite_movie_genre" id="sci_fi" value="science_fiction" accesskey="n" tabindex="7" checked="checked" autofocus="autofocus" required="required">
+              <label for="sci_fi">            
+                Science Fiction
+              </label>
               <br>
-              <input type="radio" name="favorite_movie_genre" id="act" value="action" accesskey="a" tabindex="8" disabled="disabled">Action
+              <input type="radio" name="favorite_movie_genre" id="act" value="action" accesskey="a" tabindex="8" disabled="disabled">
+              <label for="act">              
+                Action
+              </label>
               <br>
-              <input type="radio" name="favorite_movie_genre" id="com" value="comedy" accesskey="c" tabindex="9">Comedy
-              <br>         
+              <input type="radio" name="favorite_movie_genre" id="com" value="comedy" accesskey="c" tabindex="9">
+              <label for="com">
+              Comedy
+              </label>
               
+              <br>         
+              <label>
               <h4>If you have any comment or questions leave them here</h4>
               <textarea name="textarea" id="textarea" cols="36" rows="6" maxlength="4500"  placeholder="Comments" required="required" wrap="hard" accesskey="x" tabindex=11"></textarea>
-
+              </label>
+              <label>
               <h4>What level of schooling have you completed?</h4>
               <select name="schooling" id="schooling" size="3" multiple="multiple" tabindex="12">
                 <option value="none" selected="selected">none</option>
@@ -301,18 +321,20 @@
                 <option value="highschool">highschool</option>
                 <option value="college">college</option>
               </select>
-              
-              <h4>How many pets do you have?</h4>
-              <select name="pets" id="pets" size="1"  tabindex="13">
-                <option value="none" selected="selected">none</option>
-                <option value="one">one</option>
-                <option value="two" selected="selected">two</option>
-                <option value="three_plus">three or more</option>
-              </select>              
-              
-              <h4>if you were to have a password what would it be?</h4>
-              <input type="password" name="password" id="password" required="required" size="35" maxlength="25" autocomplete="on" placeholder="password here please" accesskey="p" tabindex="10" pattern="[0-9a-fA-F]{4,8}">
-
+              </label>
+              <label>
+                <h4>How many pets do you have?</h4>
+                <select name="pets" id="pets" size="1"  tabindex="13">
+                  <option value="none" selected="selected">none</option>
+                  <option value="one">one</option>
+                  <option value="two" selected="selected">two</option>
+                  <option value="three_plus">three or more</option>
+                </select>              
+              </label>
+              <label>
+                <h4>if you were to have a password what would it be?</h4>
+                <input type="password" name="password" id="password" required="required" size="35" maxlength="25" autocomplete="on" placeholder="password here please" accesskey="p" tabindex="10" pattern="[0-9a-fA-F]{4,8}">
+              </label>
 
               <br>              
               <h4>hidden field here but it is invisible</h4>
