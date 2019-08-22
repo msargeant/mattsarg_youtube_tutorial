@@ -662,6 +662,47 @@ textarea {
   resize: none;
 }
 
+fieldset {
+  display: flex;
+  border: 3px solid moccasin;
+  width: 500px;
+}
+
+fieldset h3 {
+  color: rgb(49, 45, 4);
+  font-size: 21px;
+}
+
+fieldset h4 {
+  color: rgb(49, 45, 4);
+  font-size: 21px;  
+}
+
+fieldset fieldset {
+  display: block;
+  width: 300px;
+}
+
+.form_column_left {
+  padding: 24px;
+  flex: 50%;
+}
+
+.form_column_right {
+  padding: 24px;
+  flex: 50%;
+}
+
+.submit_area {
+  width: 50%;
+  margin: auto;
+}
+
+label {
+  font-size: 18px;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 @media only screen and (min-width: 960px) and (max-width: 1260px) {
   

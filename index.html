@@ -269,6 +269,8 @@
           <br><br>
           <fieldset>
           <legend><h3>My News Letter Wants You!</h3></legend>
+          
+          <div class="form_column_left">
           <label>
           <form action="sever_side_script1.php" method="POST" autocomplete="on" id="newsletter_form" name="newsletter_form">
           
@@ -319,6 +321,8 @@
               <h4>If you have any comment or questions leave them here</h4>
               <textarea name="textarea" id="textarea" cols="36" rows="6" maxlength="4500"  placeholder="Comments" required="required" wrap="hard" accesskey="x" tabindex=11"></textarea>
               </label>
+              </div>
+              <div class="form_column_right">
               <label>
               <h4>What level of schooling have you completed?</h4>
               <select name="schooling" id="schooling" size="3" multiple="multiple" tabindex="12">
@@ -347,11 +351,13 @@
               <input type="hidden" name="hidden_user_id" id="hidden_field" value="1379">
               
           <br><br>
-          
+
+          <div class="submit_area">
             <input type="submit" value="Add Me" name="submit_button" id="submit_button" accesskey="s" tabindex="2">
             
             <input type="reset" value="clear please" name="reset_button" id="reset_button" accesskey="r" tabindex="3">
-            
+            </div>
+          </div>
           </form>
           </fieldset>
           <table id="first_table" border="1" summary="name size and distances of selected nebula clouds">
