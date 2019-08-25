@@ -269,6 +269,31 @@
           <br><br>
           
           <fieldset>
+          <legend><h3>Calendar</h3></legend>
+          <form action="#" method="POST">
+          <label for="the_date">Date: </label>
+          <input type="date" name="the_date" id="the_date" min="2000-01-02" max="2023-01-03" value="2019-08-24" required="required"><br>
+          <!--obsolete-->
+          <label for="the_date2">DateTime: </label>
+          <input type="datetime" name="the_date" id="the_date2" min="2000-01-02" max="2023-01-03" value="2019-08-24" required="required">obsolete<br>
+          <!--obsolete-->     
+          <label for="the_date3">DateTime-Local: </label>
+          <input type="datetime-local" name="the_date3" id="the_date3" min="2018-06-12T19:30" max="2018-06-14T00:00" value="2018-06-12T19:30" required="required"><br>
+          <label for="the_date4">Time: </label>
+          <input type="time" name="the_date4" id="the_date4" min="9:00" max="18:00" value="14:00" required="required"><br>          
+          </form>
+          
+          <label for="the_date5">Month: </label>
+          <input type="month" name="the_date5" id="the_date5" min="2017-03" max="2023-09" value="2019-08"><br>
+          
+          <label for="the_date6">Week: </label>
+          <input type="week" name="the_date6" id="the_date6" min="2018-W18" max="2023-W32" value="2019-W34"><br>
+          <input type="submit" name="submit8" id="submit8">
+          <input type="reset">
+          
+          </fieldset>
+          
+          <fieldset>
 
             <legend><h3>Spinner</h3></legend>
             <form action="#" method="POST">
