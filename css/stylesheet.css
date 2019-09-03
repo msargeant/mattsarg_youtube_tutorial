@@ -703,6 +703,71 @@ label {
   font-family: verdana, Geneva, Tahoma, sans-serif;
 }
 
+.rotate_div {
+  font-size: 36px;
+  height: 150px;
+  width: 100%;
+  color: white;
+  border: 5px solid yellow;
+}
+
+.rotate_div:hover {
+  transform: rotate(30deg);
+  transition-duration: 1s;
+}
+
+.scale_div {
+  font-size: 36px;
+  height: 150px;
+  width: 100%;
+  color: white;
+  border: 5px solid yellow;
+}
+
+.scale_div:hover {
+  transform: scale(0.5, 0.25);
+  transition-duration: 1s;
+}
+
+.scalex_div {
+  font-size: 36px;
+  height: 150px;
+  width: 100%;
+  color: white;
+  border: 5px solid yellow;
+}
+
+.scalex_div:hover {
+  transform: scaleX(0.6);
+  transition-duration: 1s;
+}
+
+.scaley_div {
+  font-size: 36px;
+  height: 150px;
+  width: 100%;
+  color: white;
+  border: 5px solid yellow;
+}
+
+.scaley_div:hover {
+  transform: scaleY(0.25);
+  transition-duration: 1s;
+}
+
+.skewx_div {
+  font-size: 36px;
+  height: 150px;
+  width: 100%;
+  color: white;
+  border: 5px solid yellow;
+}
+
+.skewx_div:hover {
+  transform: skewX(30deg);
+  transition-duration: 1s;
+}
+
 
 @media only screen and (min-width: 960px) and (max-width: 1260px) {
   
