@@ -768,6 +768,94 @@ label {
   transition-duration: 1s;
 }
 
+.skewy_div {
+  font-size: 36px;
+  height: 150px;
+  width: 100%;
+  color: white;
+  border: 5px solid yellow;
+}
+
+.skewy_div:hover {
+  transform: skewY(60deg);
+  transition-duration: 2s;
+}
+
+.translate_div {
+  font-size: 36px;
+  height: 150px;
+  width: 100%;
+  color: white;
+  border: 5px solid yellow;
+}
+
+.translate_div:hover {
+  transform: translate(30px, 120px);
+  transition-duration: 2s;
+}
+
+.translatex_div {
+  font-size: 36px;
+  height: 150px;
+  width: 100%;
+  color: white;
+  border: 5px solid yellow;
+}
+
+.translatex_div:hover {
+  transform: translateX(60px);
+  transition-duration: 2s;
+}
+
+.translatey_div {
+  font-size: 36px;
+  height: 150px;
+  width: 100%;
+  color: white;
+  border: 5px solid yellow;
+}
+
+.translatey_div:hover {
+  transform: translateY(-60px);
+  transition-duration: 2s;
+}
+
+.translate_website_div {
+  font-size: 36px;
+  height: 150px;
+  width: 100%;
+  color: white;
+  border: 5px solid yellow;
+}
+
+.translate_website_div:hover {
+  transition-duration: 2s;
+transform: scale(1.6) scaleZ(1.1) rotateX(33deg) translateX(23px) translateY(-23px) skewX(-49deg);
+transform-origin: 11% 16%;
+perspective: 1000;-webkit-transform: scale(1.6) scaleZ(1.1) rotateX(33deg) translateX(23px) translateY(-23px) skewX(-49deg);
+-webkit-transform-origin: 11% 16%;
+-webkit-perspective: 1000;
+-webkit-perspective-origin: 43% 43%;
+-moz-transform: scale(1.6) scaleZ(1.1) rotateX(33deg) translateX(23px) translateY(-23px) skewX(-49deg);
+-moz-transform-origin: 11% 16%;
+-moz-perspective: 1000;
+-moz-perspective-origin: 43% 43%;
+-o-transform: scale(1.6) scaleZ(1.1) rotateX(33deg) translateX(23px) translateY(-23px) skewX(-49deg);
+-o-transform-origin: 11% 16%;
+-o-perspective: 1000;
+-o-perspective-origin: 43% 43%;
+-ms-transform: scale(1.6) scaleZ(1.1) rotateX(33deg) translateX(23px) translateY(-23px) skewX(-49deg);
+-ms-transform-origin: 11% 16%;
+-ms-perspective: 1000;
+-ms-perspective-origin: 43% 43%;
+transform: scale(1.6) scaleZ(1.1) rotateX(33deg) translateX(23px) translateY(-23px) skewX(-49deg);
+transform-origin: 11% 16%;
+perspective: 1000;
+perspective-origin: 43% 43%;  
+  
+}
+
+
 
 @media only screen and (min-width: 960px) and (max-width: 1260px) {
   
